@@ -1,0 +1,8 @@
+node_modules/
+.vscode/
+
+# NextJs build
+.next/
+
+# Firebase cache
+.firebase/
