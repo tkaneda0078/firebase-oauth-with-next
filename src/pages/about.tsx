@@ -1,9 +1,14 @@
 import App from '../components/App'
+import withAuth from '../helpers/withAuth'
 
-export default function About() {
-  return (
-    <App>
-      <p>About Page</p>
-    </App>
-  )
+class About {
+  render() {
+    return (
+      <App>
+        <p>About Page</p>
+      </App>
+    )
+  }
 }
+
+export default withAuth(About)
